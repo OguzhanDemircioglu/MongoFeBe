@@ -1,3 +1,14 @@
+Installed Libs
+
+npm i react-material-ui-carousel
+npm i @mui/material @emotion/react @emotion/styled
+npm i react-router-dom
+npm i @fortawesome/free-solid-svg-icons
+npm i @fortawesome/react-fontawesome
+npm i react-bootstrap
+npm i bootstrap
+npm i axios
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
