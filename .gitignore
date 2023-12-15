@@ -1,0 +1,4 @@
+/movie-ui/node_modules/
+/.idea/
+/demo/src/main/resources/.env
+/demo/target/classes/.env
