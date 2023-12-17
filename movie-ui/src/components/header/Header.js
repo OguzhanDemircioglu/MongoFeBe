@@ -17,8 +17,8 @@ const Header = () => {
                     className="me-auto my-2 my-lg-0"
                     style={{maxHeight: "100px"}}
                     id="navbarScroll">
-                    <NavLink className="nav-link" to="/" style={{width:"50px"}}>Home</NavLink>
-                    <NavLink className="nav-link" to="/watchList" style={{width:"100px"}}>Watch List</NavLink>
+                    <NavLink className="nav-link" to="/">Home</NavLink>
+                    <NavLink className="nav-link" to="/watchList">Watch List</NavLink>
                 </Nav>
                 <Button variant="outline-info" className="me-2">Login</Button>
                 <Button variant="outline-info" className="me-2">Register</Button>

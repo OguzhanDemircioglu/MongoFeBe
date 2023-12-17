@@ -1,0 +1,17 @@
+import React from 'react';
+import {Form} from "react-bootstrap";
+import Button from "react-bootstrap/Button";
+
+const ReviewFrom = ({handleSubmit,revText,labelText,defaultValue}) => {
+    return(
+     <Form>
+         <Form.Group className="mb-3" controlId="exampleForm.ControlTextareal">
+             <Form.Label>{labelText}</Form.Label>
+             <Form.Control ref={revText} as="textarea" aria-rowspan={3} defaultValue={defaultValue}/>
+         </Form.Group>
+     <Button variant="outline-info" onClick={handleSubmit}>Submit</Button>
+     </Form>
+    )
+}
+
+export default ReviewFrom;
