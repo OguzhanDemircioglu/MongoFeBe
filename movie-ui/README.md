@@ -8,6 +8,7 @@ npm i @fortawesome/react-fontawesome
 npm i react-bootstrap
 npm i bootstrap
 npm i axios
+npm i react-player
 
 # Getting Started with Create React App
 
